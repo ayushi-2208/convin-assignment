@@ -9,8 +9,6 @@ const App = () => {
   const [users, setUsers] = useState([]);
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(false);
-  // const [userSize, setUserSize] = useState(5);
-  const [currentUser, setCurrentUser] = useState(-1);
 
   useEffect(() => {
     const fetchUsers = async () => {
